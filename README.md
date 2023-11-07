@@ -14,8 +14,9 @@
 
   </p>
 </p>
-<img width="336" alt="Screenshot 2023-11-07 at 10 16 03 AM" src="https://github.com/Cyna298/Memorize/assets/43740019/808701be-6521-4784-97ad-30ba770c4f9f">
-<img width="323" alt="Screenshot 2023-11-07 at 10 16 41 AM" src="https://github.com/Cyna298/Memorize/assets/43740019/78da1ced-791d-4d32-859d-304a7ad5910c">
+<img width="319" alt="Screenshot 2023-11-07 at 10 42 05 AM" src="https://github.com/Cyna298/Memorize/assets/43740019/41d1ee13-1a63-4da3-bce5-ef427823b7d8">
+<img width="321" alt="Screenshot 2023-11-07 at 10 42 27 AM" src="https://github.com/Cyna298/Memorize/assets/43740019/c1aea329-436c-49eb-ab4b-f36988a40e85">
+
 
 
 
