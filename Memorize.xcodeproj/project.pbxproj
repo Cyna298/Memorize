@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		C73E2A8B29620516006532DB /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73E2A8A29620516006532DB /* MemorizeApp.swift */; };
-		C73E2A8D29620516006532DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73E2A8C29620516006532DB /* ContentView.swift */; };
+		C73E2A8D29620516006532DB /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73E2A8C29620516006532DB /* EmojiMemoryGameView.swift */; };
 		C73E2A8F29620518006532DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C73E2A8E29620518006532DB /* Assets.xcassets */; };
 		C73E2A9229620518006532DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C73E2A9129620518006532DB /* Preview Assets.xcassets */; };
+		C7A60B7829C103D0001D17A9 /* AspectVGird.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A60B7729C103D0001D17A9 /* AspectVGird.swift */; };
+		C7A60B7A29C10927001D17A9 /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A60B7929C10927001D17A9 /* Pie.swift */; };
+		C7EAF64D29636EB200FEF013 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EAF64C29636EB200FEF013 /* MemoryGame.swift */; };
+		C7EAF64F2964AA0800FEF013 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EAF64E2964AA0800FEF013 /* EmojiMemoryGame.swift */; };
+		C7EAF65129675F8F00FEF013 /* ThemeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EAF65029675F8F00FEF013 /* ThemeHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C73E2A8729620516006532DB /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C73E2A8A29620516006532DB /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
-		C73E2A8C29620516006532DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C73E2A8C29620516006532DB /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
 		C73E2A8E29620518006532DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C73E2A9129620518006532DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C7A60B7729C103D0001D17A9 /* AspectVGird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AspectVGird.swift; path = Memorize/AspectVGird.swift; sourceTree = "<group>"; };
+		C7A60B7929C10927001D17A9 /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
+		C7EAF64C29636EB200FEF013 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		C7EAF64E2964AA0800FEF013 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
+		C7EAF65029675F8F00FEF013 /* ThemeHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +45,7 @@
 		C73E2A7E29620516006532DB = {
 			isa = PBXGroup;
 			children = (
+				C7A60B7729C103D0001D17A9 /* AspectVGird.swift */,
 				C73E2A8929620516006532DB /* Memorize */,
 				C73E2A8829620516006532DB /* Products */,
 			);
@@ -52,9 +63,13 @@
 			isa = PBXGroup;
 			children = (
 				C73E2A8A29620516006532DB /* MemorizeApp.swift */,
-				C73E2A8C29620516006532DB /* ContentView.swift */,
+				C73E2A8C29620516006532DB /* EmojiMemoryGameView.swift */,
+				C7A60B7929C10927001D17A9 /* Pie.swift */,
+				C7EAF64C29636EB200FEF013 /* MemoryGame.swift */,
+				C7EAF64E2964AA0800FEF013 /* EmojiMemoryGame.swift */,
 				C73E2A8E29620518006532DB /* Assets.xcassets */,
 				C73E2A9029620518006532DB /* Preview Content */,
+				C7EAF65029675F8F00FEF013 /* ThemeHandler.swift */,
 			);
 			path = Memorize;
 			sourceTree = "<group>";
@@ -94,8 +109,11 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					C73E2A8629620516006532DB = {
 						CreatedOnToolsVersion = 14.2;
@@ -137,8 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C73E2A8D29620516006532DB /* ContentView.swift in Sources */,
+				C7EAF64D29636EB200FEF013 /* MemoryGame.swift in Sources */,
+				C7EAF65129675F8F00FEF013 /* ThemeHandler.swift in Sources */,
+				C73E2A8D29620516006532DB /* EmojiMemoryGameView.swift in Sources */,
 				C73E2A8B29620516006532DB /* MemorizeApp.swift in Sources */,
+				C7A60B7A29C10927001D17A9 /* Pie.swift in Sources */,
+				C7A60B7829C103D0001D17A9 /* AspectVGird.swift in Sources */,
+				C7EAF64F2964AA0800FEF013 /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +204,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -195,7 +219,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -241,6 +265,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -249,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -267,6 +292,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Memorize/Preview Content\"";
+				DEVELOPMENT_TEAM = AKRY4T83PL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -274,6 +300,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,6 +322,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Memorize/Preview Content\"";
+				DEVELOPMENT_TEAM = AKRY4T83PL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -302,6 +330,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
